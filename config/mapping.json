@@ -1,0 +1,40 @@
+{
+  "tag_mapping": {
+    "PER": "PERSON",
+    "FLD": "ORG",
+    "AFW": "PRODUCT",
+    "ORG": "ORG",
+    "LOC": "GPE",
+    "CVL": "WORK_OF_ART",
+    "DAT": "DATE",
+    "TIM": "TIME",
+    "NUM": "CARDINAL",
+    "EVT": "EVENT",
+    "ANM": "ANM",
+    "PLT": "PLT",
+    "MAT": "PRODUCT",
+    "TRM": "TRM",
+    "CORP": "ORG",
+    "GRP": "NORP", 
+    "PROD": "PRODUCT",
+    "CW": "WORK_OF_ART",
+    "POH": "MISC",
+    "DUR": "DURATION",
+    "MNY": "MONEY",
+    "PNT": "PERCENT",
+    "NOH": "QUANTITY"
+  },
+  "special_cases": {
+    "NUM": [
+      "CARDINAL",
+      "ORDINAL",
+      "QUANTITY", 
+      "PERCENT",
+      "MONEY"
+    ],
+    "LOC": [
+      "GPE",
+      "FAC"
+    ]
+  }
+ }
